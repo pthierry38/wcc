@@ -1,0 +1,5 @@
+bin/wcc usr/bin
+bin/wcch usr/bin
+bin/wld usr/bin
+bin/wldd usr/bin
+bin/wsh usr/bin
