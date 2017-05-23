@@ -1,0 +1,10 @@
+--- a/doc/manpages/wld.1
++++ b/doc/manpages/wld.1
+@@ -1,6 +1,6 @@
+ .TH WLD "1" "April 2017" "Witchcraft Compiler Collection" "User Commands"
+ .SH NAME
+-wld \- transform executables into shared libaries
++wld \- transform executables into shared libraries
+ .SH SYNOPSIS
+ .B wld
+ [\fIoptions\fR] \fIfile\fR
