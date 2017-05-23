@@ -4,5 +4,6 @@ wcc (0.0.1-1) unstable; urgency=low
   * Updated various spelling error.
   * Updated man pages.
   * Created two binary packages separating a complete documentation pkg.
+  * Add upstream changelog generation from git commit msg.
 
- -- Philippe Thierry <phil@reseau-libre.net>  Fri, 28 Apr 2017 12:44:12 +0200
+ -- Philippe Thierry <phil@reseau-libre.net>  Tue, 23 May 2017 10:32:24 +0200
