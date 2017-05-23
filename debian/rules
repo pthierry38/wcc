@@ -17,3 +17,17 @@ override_dh_auto_install:
 %:
 	dh $@ 
 
+# get back current tag release notes from GitHub
+mkrelease:
+	quilt push changelog.patch
+	debian/lib/gen_changelog.sh
+	quilt refresh
+	quilt pop -a
+	@echo
+	@echo This target is made to fail intentionally, to make sure
+	@echo that it is NEVER run during the automated build. Please
+	@echo ignore the following error, the changelog file has been
+	@echo generated SUCCESSFULLY.
+	@echo
+	exit 1
+

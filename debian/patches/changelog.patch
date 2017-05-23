@@ -1,0 +1,11 @@
+Description: Add support for upstream ChangeLog
+ This patch is used to be manually updated in order to
+ generate upstream changelog from upstream repository, based
+ on current tag.
+ This file is overriden by mkrelease target from debian/rules
+Author: Philippe Thierry
+Last-Update: 2017-05-23
+--- /dev/null
++++ b/changelog
+@@ -0,0 +1 @@
++# initial changelog file
