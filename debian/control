@@ -14,3 +14,9 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, libcapstone, libelf, libreadline, l
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+
+Package: wcc-docs
+Architecture: all
+Depends: ${misc:depends}
+Description: Doxygen documentation of wcc
+ long description.

@@ -8,6 +8,9 @@ DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/default.mk
 
 
+override_dh_auto_install:
+	@echo using dh_install manually	
+
 # main packaging script based on dh7 syntax
 %:
 	dh $@ 
