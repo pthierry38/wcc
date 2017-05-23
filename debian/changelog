@@ -1,4 +1,4 @@
-wcc (20170424-1) unstable; urgency=low
+wcc (0.0.1-1) unstable; urgency=low
 
   * Initial release (Closes: #861390).
   * Updated various spelling error.
