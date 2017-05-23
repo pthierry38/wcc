@@ -12,13 +12,14 @@ Package: wcc
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, libcapstone3, libelf1, libreadline7, libgsl2
 Description: WCC is a collection of tools to manipulate binaries and shared objects
- WCC permits to manipulate binaries and shared liraries to reuse
+ WCC permits one to manipulate binaries and shared liraries to reuse
  their API into an external usage, as a relocatable object that
  can be linked to a new project, or through an interpreter (wsh)
  to execute internal API directly.
 
 Package: wcc-doc
 Architecture: all
+Section: doc
 Depends: ${misc:Depends}
 Description: The WCC complete internal documentation and Howtos
  All documentations including Doxygen output and various Howtos on how
