@@ -1,2 +1,2 @@
-# wrong error due to doxygen autogen files in upstream sources
-wcc source: source-is-missing
+# src/tex contains custom headers and footers for doxygen, not prebuilt
+wcc source: source-contains-prebuilt-doxygen-documentation
