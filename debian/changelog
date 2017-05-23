@@ -1,5 +1,8 @@
 wcc (20170424-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn).
+  * Initial release (Closes: #861390).
+  * Updated various spelling error.
+  * Updated man pages.
+  * Created two binary packages separating a complete documentation pkg.
 
- -- Philippe Thierry <phil@reseau-libre.net>  Thu, 27 Apr 2017 16:22:39 +0200
+ -- Philippe Thierry <phil@reseau-libre.net>  Fri, 28 Apr 2017 12:44:12 +0200
