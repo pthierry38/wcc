@@ -11,6 +11,11 @@ include /usr/share/dpkg/default.mk
 override_dh_auto_install:
 	@echo using dh_install manually	
 
+
+override_dh_installdocs:
+	make documentation
+	dh_installdocs
+
 # main packaging script based on dh7 syntax
 %:
 	dh $@ 
