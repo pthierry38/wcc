@@ -2,15 +2,29 @@ Source: wcc
 Section: utils
 Priority: optional
 Maintainer: Philippe Thierry <phil@reseau-libre.net>
-Build-Depends: debhelper (>= 10), binutils-dev, libcapstone-dev, libelf-dev, libreadline-dev, libgsl-dev, clang, libiberty-dev
+Build-Depends:
+ debhelper (>= 10),
+ binutils-dev,
+ libcapstone-dev,
+ libelf-dev,
+ libreadline-dev,
+ libgsl-dev,
+ clang,
+ libiberty-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/endrazine/wcc
-Vcs-Git: https://github.com/endrazine/wcc.git
-Vcs-Browser: https://github.com/endrazine/wcc
+Vcs-Git: git://anonscm.debian.org/pkg-security/wcc.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-security/wcc.git
 
 Package: wcc
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libcapstone3, libelf1, libreadline7, libgsl2
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ libcapstone3,
+ libelf1,
+ libreadline7,
+ libgsl2
 Description: Collection of tools to manipulate binaries and shared objects
  This tool permits one to manipulate binaries and shared liraries to reuse
  their API into an external usage, as a relocatable object that
@@ -20,10 +34,9 @@ Description: Collection of tools to manipulate binaries and shared objects
 Package: wcc-doc
 Architecture: all
 Section: doc
-Depends: ${misc:Depends}
+Depends:
+ ${misc:Depends}
 Description: Complete internal documentation and Howtos for WCC
  All documentations including Doxygen output and various Howtos on how
  to use the Witchcraft Compiler Collection.
  This documentation also include various examples.
-
-
