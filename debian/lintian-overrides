@@ -1,0 +1,4 @@
+# false positive: usr/bin/wsh Ot To
+wcc: spelling-error-in-binary
+# voluntary fixed base address for wsh
+wcc: hardening-no-pie usr/bin/wsh
