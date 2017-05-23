@@ -1,3 +1,8 @@
+Description: spelling corrections in man pages
+ Various spelling corrections after spellintian pass
+ on man pages.
+Author: Philippe Thierry
+Last-Update: 2017-05-23
 --- a/doc/manpages/wld.1
 +++ b/doc/manpages/wld.1
 @@ -1,6 +1,6 @@
