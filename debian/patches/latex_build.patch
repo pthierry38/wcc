@@ -1,3 +1,10 @@
+Description: Update doxygen header file to compile
+ This patch correct a bug in doxygen when using custom header
+ including '\+' char in various places in the generated LaTeX
+ files. This patch declare the '\+' LaTeX command as an empty
+ command to avoid compilation failure.
+Author: Philippe Thierry
+Last-Update: 2017-04-28
 --- a/src/tex/header.tex
 +++ b/src/tex/header.tex
 @@ -106,6 +106,9 @@
