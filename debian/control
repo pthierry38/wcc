@@ -11,8 +11,8 @@ Vcs-Browser: https://github.com/endrazine/wcc
 Package: wcc
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, libcapstone3, libelf1, libreadline7, libgsl2
-Description: WCC is a collection of tools to manipulate binaries and shared objects
- WCC permits one to manipulate binaries and shared liraries to reuse
+Description: Collection of tools to manipulate binaries and shared objects
+ This tool permits one to manipulate binaries and shared liraries to reuse
  their API into an external usage, as a relocatable object that
  can be linked to a new project, or through an interpreter (wsh)
  to execute internal API directly.
