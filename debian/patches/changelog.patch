@@ -7,5 +7,49 @@ Author: Philippe Thierry
 Last-Update: 2017-05-23
 --- /dev/null
 +++ b/changelog
-@@ -0,0 +1 @@
-+# initial changelog file
+@@ -0,0 +1,45 @@
++# Release notes for vesion 
++2017-05-11 12:22:02 -0700: [Jonathan Brossard] Merge pull request #22 from conradjones/master
++2017-05-08 21:43:25 +0100: [Conrad Jones] Update README.md
++2017-05-08 21:42:22 +0100: [Conrad Jones] Update README.md
++2017-05-05 15:19:26 -0700: [Jonathan Brossard] Made the extra error printing introduced with 13c2b333ee5da9e09bfa890e0abb73ac3aa31bb7 optional. This prevents dlerror() to display an error when attempting to resolve weak symbols.
++2017-05-05 14:32:30 -0700: [Jonathan Brossard] Removed html help from gitc
++2017-04-30 02:56:05 -0700: [Jonathan Brossard] Initialised all local variables in wsh.c
++2017-04-30 01:34:58 -0700: [Jonathan Brossard] Added missing Makefiles. Completed manpages.
++2017-04-29 23:03:57 -0700: [Jonathan Brossard] Merge branch 'master' of https://github.com/endrazine/wcc
++2017-04-29 23:02:42 -0700: [Jonathan Brossard] Removed compiler version from Makefiles. Added sane defaut environement variables in wsh constructor.
++2017-04-24 18:12:52 -0700: [Jonathan Brossard] Merge pull request #19 from awesomo4000/master
++2017-04-22 07:52:37 -0400: [aa] Check ret is valid with dlerror() or get a segfault.
++2017-04-11 01:39:14 -0700: [Jonathan Brossard] Fixed Readme.md
++2017-04-11 01:37:22 -0700: [Jonathan Brossard] Fixed markup in Readme.md
++2017-04-11 01:33:18 -0700: [Jonathan Brossard] Modified loading to attempt libifying of ET_EXEC into ET_DYN. Note: Attempting to load multiple ET_EXEC binaries this way is likery to cause address space conflicts between the libified executables and is not recommended (instant segfault).
++2017-04-10 23:06:50 -0700: [Jonathan Brossard] Fixed dependency on lua version 5.3.2
++2016-09-02 00:21:49 -0700: [Jonathan Brossard] Fixed wsh.c build problem with clang : linker script was ignored. Fixed warnings in wcc.c Fixed a few casting errors in wsh.c
++2016-08-31 21:57:30 -0700: [Jonathan Brossard] Fixed typo in README.md
++2016-08-31 21:52:38 -0700: [Jonathan Brossard] Refactored load process in wsh.
++2016-08-16 00:15:22 -0700: [Jonathan Brossard] Commited hashing script (SHA algorithms), fixing https://github.com/endrazine/wcc/issues/11
++2016-08-14 00:55:59 -0700: [Jonathan Brossard] Merge pull request #10 from xorond/master
++2016-08-14 10:24:42 +0300: [xorond] added DESTDIR to Makefiles
++2016-08-13 17:59:57 -0700: [Jonathan Brossard] Added License information to makefiles and examples.
++2016-08-13 17:51:20 -0700: [Jonathan Brossard] Added .gitignore file to ignore compiled binaries.
++2016-08-13 16:44:42 -0700: [Jonathan Brossard] Removed test Makefiles for wsh : compiling from an ARM chroot works fine.
++2016-08-13 15:54:50 -0700: [Jonathan Brossard] Added utlist.h and uthash.h to the /wcc/include directory.
++2016-08-13 15:45:43 -0700: [Jonathan Brossard] Merge pull request #9 from juliosueiras/patch-1
++2016-08-13 15:44:55 -0700: [Jonathan Brossard] Merge pull request #7 from joeyrideout/master
++2016-08-13 18:15:50 -0400: [Julio Sueiras] Fix typo
++2016-08-13 13:01:19 -0700: [joeyrideout] Fix installation requirements package names
++2016-08-12 17:40:12 -0700: [Jonathan Brossard] Added html Doxygen documentation to the repository for online view.
++2016-08-12 17:33:21 -0700: [Jonathan Brossard] Fixed https://github.com/endrazine/wcc/issues/5 by asserting in wsh_getopt() that at least one argument has been passed on the command line.
++2016-08-11 23:55:56 -0700: [Jonathan Brossard] Added the wiki User Manual as a git submodule under doc/wikidocs/ This allows mirrorings the WCC wiki locally.
++2016-08-11 22:46:17 -0700: [Jonathan Brossard] Cleaned doc directory. Added man pages for wcc and wld.
++2016-08-11 04:36:28 -0700: [Jonathan Brossard] Merge pull request #4 from ampotos/fix_compil_arch_linux
++2016-08-11 11:59:30 +0100: [ampotos] Fix compilation issue on Arch linux
++2016-08-11 03:01:16 -0700: [Jonathan Brossard] Added reference to the online wiki (User Manual).
++2016-08-10 22:45:26 -0700: [Jonathan Brossard] Fixed typo.
++2016-08-10 22:27:20 -0700: [Jonathan Brossard] Added missing inttypes.h header in wcc.c Thanks to Michael Myers for the bug report :)
++2016-08-10 22:18:56 -0700: [Jonathan Brossard] Explicited dependancies and how to get them on Ubuntu as per https://github.com/endrazine/wcc/issues/3 Thanks to michael-myers :)
++2016-08-10 22:15:57 -0700: [Jonathan Brossard] Merge branch 'master' of https://github.com/endrazine/wcc
++2016-08-10 21:06:30 -0700: [Jonathan Brossard] Updated README.md and Makefile. Added doxygen documentation support.
++2016-08-09 12:38:31 -0700: [Jonathan Brossard] Merge pull request #1 from ramnes/patch-1
++2016-08-09 14:46:42 +0200: [Guillaume Gelin] Fix typos
++2016-08-09 00:04:40 -0700: [Jonathan Brossard] Merged dependancies lua, luajit, linenoise and openlibm as git submodules.
