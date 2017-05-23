@@ -21,7 +21,7 @@ Package: wcc-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Complete internal documentation and Howtos
+Description: Complete internal documentation and Howtos for WCC
  All documentations including Doxygen output and various Howtos on how
  to use the Witchcraft Compiler Collection.
  This documentation also include various examples.
