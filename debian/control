@@ -18,7 +18,7 @@ Description: The WCC complete internal documentation and Howtos
 
 Package: wcc-doc
 Architecture: all
-Depends: ${misc:depends}
+Depends: ${misc:Depends}
 Description: WCC is a collection of tools to manipulate binaries and shared objects
  WCC permits to manipulate binaries and shared liraries to reuse their API into an
  external usage, as a relocatable object that can be linked to a new project,
