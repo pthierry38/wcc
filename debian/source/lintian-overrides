@@ -3,4 +3,4 @@ wcc source: source-contains-prebuilt-doxygen-documentation
 # binary for example usage
 wcc source: source-contains-prebuilt-binary
 # source is a libc reforging (confer Makefile in same dir)
-wcc source: source-is-missing doc/presentations/demos_defcon24_2016/bsd2linux/fmt.c.O0_amd6
+wcc source: source-is-missing
