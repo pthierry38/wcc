@@ -1,3 +1,4 @@
+debian_hardening.patch
 changelog.patch
 spelling_in_src.patch
 latex_build.patch
