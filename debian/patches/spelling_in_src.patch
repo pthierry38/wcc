@@ -45,3 +45,12 @@ Last-Update: 2017-04-28
  		printf(" + code execution:\n\tlibcall()\n\n");
  		printf(" + buffer manipulation:\n\txalloc(), ralloc(), xfree(), balloc(), bset(), bget(), rdstr(), rdnum()\n\n");
  		printf(" + control flow:\n\t breakpoint(), bp()\n\n");
+@@ -1874,7 +1874,7 @@
+ 	*/
+ 	HASH_SRT(hh, protorecords, sort_learnt);
+ 
+-	printf("\n [*] Prototypes: (from %u tag informations)\n", HASH_COUNT(protorecords));
++	printf("\n [*] Prototypes: (from %u tag information)\n", HASH_COUNT(protorecords));
+ 	HASH_ITER(hh, protorecords, l, p) {
+ 		if((!patternlib) || (strstr(l->key.tlib, patternlib))){
+ 			if((!pattern) || (!strncmp(pattern, l->key.tfunction, strlen(pattern)))){
