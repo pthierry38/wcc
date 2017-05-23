@@ -1,0 +1,16 @@
+Source: wcc
+Section: utils
+Priority: optional
+Maintainer: Philippe Thierry <phil@reseau-libre.net>
+Build-Depends: debhelper (>= 10), capstone-dev, binutils-dev, libc6-dev, libelf-dev, libreadline-dev, libgsl-dev, make
+Standards-Version: 3.9.8
+Homepage: https://github.com/endrazine/wcc
+Vcs-Git: https://github.com/endrazine/wcc.git
+Vcs-Browser: https://github.com/endrazine/wcc
+
+Package: wcc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, capstone, lzlib, libelf, libreadline, libgsl, make
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
