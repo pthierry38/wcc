@@ -1,0 +1,8 @@
+Document: wcc
+Title: wcc Manual
+Author: Jonathan Brossard
+Abstract: This manual describes what WCC is, and how it can be used.
+Section: utility
+Format: Text
+Index: /usr/share/doc/wcc-doc/wikidocs/Home.md
+Files: /usr/share/doc/gentoo/html/*.md

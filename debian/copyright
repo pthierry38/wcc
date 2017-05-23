@@ -20,7 +20,7 @@ Copyright: 2016 Jonathan Brossard
            2016 Steven G. Kargl
            2016 The Regents of the University of California
            2016 Troy D. Hanson
-License: MIT or BSD-2 or BSD-3 or ISC
+License: MIT or BSD-2-clause or BSD-3-clause or ISC
 
 Files: debian/*
 Copyright: 2017 Philippe Thierry <phil@reseau-libre.net>
@@ -43,7 +43,7 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'
 
-License: BSD-2
+License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
  .
@@ -65,7 +65,7 @@ License: BSD-2
  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-License: BSD-3
+License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
  .
@@ -110,7 +110,7 @@ License: MIT
  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-License ISC:
+License: ISC
  Permission to use, copy, modify, and/or distribute this software for any
  purpose with or without fee is hereby granted, provided that the above
  copyright notice and this permission notice appear in all copies.
@@ -122,5 +122,3 @@ License ISC:
  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
  OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  PERFORMANCE OF THIS SOFTWARE.
-
-
