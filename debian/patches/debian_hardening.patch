@@ -1,6 +1,11 @@
+Description: Add support for complete Debian hardening
+ Support for including complementary CFLAGS from
+ debian/rules.
+Author: Philippe Thierry
+Last-Update: 2017-05-23
 --- a/Makefile
 +++ b/Makefile
-@@ -7,7 +7,7 @@
+@@ -7,11 +7,11 @@
  # This file is licensed under MIT License.
  #
  
@@ -9,3 +14,8 @@
  
  all:
  	mkdir -p bin
+-	cd src && make CFLAGS=" $(CFLAGS)"
++	cd src && make CFLAGS="$(CPPFLAGS) $(CFLAGS)"
+ 
+ documentation:
+ 	cd src && doxygen ./tex/project.cfg
