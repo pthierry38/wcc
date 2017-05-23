@@ -1,0 +1,22 @@
+--- a/src/wcc/wcc.c
++++ b/src/wcc/wcc.c
+@@ -1252,7 +1252,7 @@
+   ctx->phnum += 2;
+ 
+   if (ctx->opt_verbose) {
+-    printf(" -- Writting %u segment headers\n", ctx->phnum);
++    printf(" -- Writing %u segment headers\n", ctx->phnum);
+   }
+   // first entry is the program header itself
+   Elf_Phdr *phdr = calloc(1, sizeof(Elf_Phdr));
+--- a/src/wsh/include/libwitch/wsh_help.h
++++ b/src/wsh/include/libwitch/wsh_help.h
+@@ -56,7 +56,7 @@
+ * Internal help : wsh functions
+ */
+ help_t fcnhelp[] ={
+-	{"help", "[topic]","Display help on [topic]. If [topic] is ommitted, display general help.", "", "None"},
++	{"help", "[topic]","Display help on [topic]. If [topic] is omitted, display general help.", "", "None"},
+ 	{"man", "[page]", "Display system manual page for [page].", "", "None"},
+ 	{"hexdump", "<address>, <num>", "Display <num> bytes from memory <address> in enhanced hexadecimal form.", "", "None"},
+ 	{"hex", "<object>", "Display lua <object> in enhanced hexadecimal form.", "", "None"},
