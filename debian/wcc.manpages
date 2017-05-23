@@ -1,2 +1,5 @@
-doc/manpages/wcc.8
-doc/manpages/wld.8
+doc/manpages/wcc.1
+doc/manpages/wcch.1
+doc/manpages/wld.1
+doc/manpages/wldd.1
+doc/manpages/wsh.1
