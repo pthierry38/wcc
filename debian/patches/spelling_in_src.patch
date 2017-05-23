@@ -36,7 +36,7 @@ Last-Update: 2017-04-28
  	{"grep", "<pattern>, [patternlen], [dumplen], [before]","Search <pattern> in all ELF sections in memory. Match [patternlen] bytes, then display [dumplen] bytes, optionally including [before] bytes before the match. Results are displayed in enhanced decimal form", "table match = ", "Returns 1 lua table containing matching memory addresses."},
 --- a/src/wsh/wsh.c
 +++ b/src/wsh/wsh.c
-@@ -528,7 +528,7 @@
+@@ -537,7 +537,7 @@
  		printf(" + memory maps:\n\tshdrs(), phdrs(), map(), procmap(), bfmap()\n\n");
  		printf(" + symbols:\n\tsymbols(), functions(), objects(), info(), search(), headers()\n\n");
  		printf(" + memory search:\n\tgrep(), grepptr()\n\n");
