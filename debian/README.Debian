@@ -1,6 +1,7 @@
 wcc for Debian
 --------------
 
-<possible notes regarding this package - if none, delete this file>
+wcc (Witchcraft Compiler collection) is a set of tool to manipulate ELF and
+shared object to reuse symbols in external content.
 
  -- Philippe Thierry <phil@reseau-libre.net>  Thu, 27 Apr 2017 16:22:39 +0200
