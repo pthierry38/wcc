@@ -1,0 +1,5 @@
+#!/usr/bin/wsh -q
+
+ loadbin('/bin/ls')
+ libs()
+ exit(0)

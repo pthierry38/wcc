@@ -1,0 +1,48 @@
+#!/usr/bin/wsh
+
+function str2md5(input)
+	ctx_md5 = calloc(1024, 1)
+	out_md5 = calloc(33, 1)
+	MD5_Init(ctx_md5)
+        MD5_Update(ctx_md5, input, 33)
+        MD5_Final(out_md5, ctx_md5)
+
+        return out_md5
+end
+
+function str2sha1(input)
+	ctx_sha1 = calloc(1024, 1)
+	out_sha1 = calloc(41, 1)
+	SHA1_Init(ctx_sha1)
+        SHA1_Update(ctx_sha1, input, 41)
+        SHA1_Final(out_sha1, ctx_sha1)
+
+        return out_sha1
+end
+
+function str2sha256(input)
+	ctx_sha256 = calloc(1024, 1)
+	out_sha256 = calloc(65, 1)
+	SHA256_Init(ctx_sha256)
+        SHA256_Update(ctx_sha256, input, 41)
+        SHA256_Final(out_sha256, ctx_sha256)
+
+        return out_sha256
+end
+
+input = "my best friend is a little poney !"
+printf("-- input: %s\n", input)
+printf("-- md5 hexdump\n")
+hash = str2md5(input)
+hexdump(hash,16)
+
+printf("-- sha1 hexdump\n")
+hash = str2sha1(input)
+hexdump(hash,20)
+
+printf("-- sha256 hexdump\n")
+hash = str2sha1(input)
+hexdump(hash,32)
+
+exit(0)
+
