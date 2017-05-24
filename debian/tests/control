@@ -1,9 +1,9 @@
-Tests: testlibs.wsh testssl.wsh
+Tests: wsh-libs.wsh wsh-ssl.wsh
 Restrictions: allow-stderr
 Depends: @, openssh-client
 
-Tests: test_wldd.sh
+Tests: wldd.sh
 Depends: @, openssh-server
 
-Tests: test_wcc.sh
+Tests: wcc.sh
 Depends: @, mktemp
