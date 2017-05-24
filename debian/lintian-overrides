@@ -2,3 +2,5 @@
 wcc: spelling-error-in-binary
 # voluntary fixed base address for wsh
 wcc: hardening-no-pie usr/bin/wsh
+# debug script is the defaut script loaded by wsh, can't have a shebang
+wcc: executable-not-elf-or-script
